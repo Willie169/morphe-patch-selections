@@ -1,0 +1,118 @@
+{
+    "exportDate": "2026-07-22T00:34:51.510069",
+    "bundles": [
+        {
+            "bundleUid": -574526183,
+            "bundleName": "Adobo",
+            "bundleSource": "https://raw.githubusercontent.com/jkennethcarino/adobo/main/patches-bundle.json",
+            "exportDate": "2026-07-22T00:34:51.510069",
+            "selections": {
+                "com.google.android.inputmethod.latin": [
+                    "Always-incognito mode",
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Enable OCR feature",
+                    "Enable Undo feature",
+                    "Enable clipboard in incognito",
+                    "Enable key shape selection",
+                    "Enable voice typing in incognito"
+                ],
+                "com.google.android.youtube": [
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring"
+                ]
+            },
+            "options": {
+                "com.google.android.inputmethod.latin": {
+                    "Toggle feature flags": {
+                        "enableFlags": "true"
+                    }
+                }
+            }
+        },
+        {
+            "bundleUid": 0,
+            "bundleName": "Morphe Patches",
+            "bundleSource": "api",
+            "exportDate": "2026-07-22T00:34:51.510069",
+            "selections": {
+                "com.google.android.youtube": [
+                    "Add to queue",
+                    "Alternative thumbnails",
+                    "Ambient mode",
+                    "Bypass image region restrictions",
+                    "Bypass link redirects",
+                    "Captions",
+                    "Change form factor",
+                    "Change header",
+                    "Change start page",
+                    "Check watch history domain name resolution",
+                    "Copy video link",
+                    "Custom branding",
+                    "Custom player overlay opacity",
+                    "Disable DRC audio",
+                    "Disable QUIC protocol",
+                    "Disable Shorts resuming on startup",
+                    "Disable double tap actions",
+                    "Disable fullscreen gestures",
+                    "Disable haptic feedback",
+                    "Disable layout updates",
+                    "Disable player popup panels",
+                    "Disable rolling number animations",
+                    "Disable sign in to TV popup",
+                    "Disable video codecs",
+                    "Double tap to seek",
+                    "Downloads",
+                    "Enable debugging",
+                    "Exit fullscreen mode",
+                    "Force original audio",
+                    "GmsCore support",
+                    "Hide Shorts components",
+                    "Hide ads",
+                    "Hide autoplay preview",
+                    "Hide end screen cards",
+                    "Hide end screen suggested video",
+                    "Hide info cards",
+                    "Hide layout components",
+                    "Hide player flyout menu components",
+                    "Hide player overlay buttons",
+                    "Hide related video overlay",
+                    "Hide related videos",
+                    "Hide timestamp",
+                    "Hide video action buttons",
+                    "Loop video",
+                    "Media notification controls",
+                    "Miniplayer",
+                    "Navigation bar",
+                    "Network proxy",
+                    "Open Shorts in regular player",
+                    "Open channel of live avatar",
+                    "Open links externally",
+                    "Open system share sheet",
+                    "Open videos fullscreen",
+                    "Override YouTube Music buttons",
+                    "Play all",
+                    "Playback speed",
+                    "Reload video",
+                    "Remove background playback restrictions",
+                    "Remove viewer discretion dialog",
+                    "Return YouTube Dislike",
+                    "Sanitize sharing links",
+                    "Save to watch later",
+                    "Seekbar",
+                    "Shorts autoplay",
+                    "SponsorBlock",
+                    "Spoof app version",
+                    "Spoof device dimensions",
+                    "Spoof video streams",
+                    "Swipe controls",
+                    "Theme",
+                    "Video quality",
+                    "Voice over translation"
+                ]
+            },
+            "options": null
+        }
+    ]
+}
