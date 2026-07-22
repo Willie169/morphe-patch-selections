@@ -1,11 +1,11 @@
 {
-    "exportDate": "2026-07-22T00:34:51.510069",
+    "exportDate": "2026-07-22T11:30:57.459058",
     "bundles": [
         {
             "bundleUid": -574526183,
             "bundleName": "Adobo",
             "bundleSource": "https://raw.githubusercontent.com/jkennethcarino/adobo/main/patches-bundle.json",
-            "exportDate": "2026-07-22T00:34:51.510069",
+            "exportDate": "2026-07-22T11:30:57.459058",
             "selections": {
                 "com.google.android.inputmethod.latin": [
                     "Always-incognito mode",
@@ -35,7 +35,7 @@
             "bundleUid": 0,
             "bundleName": "Morphe Patches",
             "bundleSource": "api",
-            "exportDate": "2026-07-22T00:34:51.510069",
+            "exportDate": "2026-07-22T11:30:57.459058",
             "selections": {
                 "com.google.android.youtube": [
                     "Add to queue",
@@ -46,6 +46,7 @@
                     "Captions",
                     "Change form factor",
                     "Change header",
+                    "Change package name",
                     "Change start page",
                     "Check watch history domain name resolution",
                     "Copy video link",
