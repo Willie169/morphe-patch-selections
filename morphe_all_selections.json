@@ -1,11 +1,11 @@
 {
-    "exportDate": "2026-07-22T11:30:57.459058",
+    "exportDate": "2026-08-01T17:25:04.257457",
     "bundles": [
         {
             "bundleUid": -574526183,
             "bundleName": "Adobo",
             "bundleSource": "https://raw.githubusercontent.com/jkennethcarino/adobo/main/patches-bundle.json",
-            "exportDate": "2026-07-22T11:30:57.459058",
+            "exportDate": "2026-08-01T17:25:04.257457",
             "selections": {
                 "com.google.android.inputmethod.latin": [
                     "Always-incognito mode",
@@ -21,12 +21,38 @@
                 "com.google.android.youtube": [
                     "Deactivate Firebase Analytics",
                     "Deactivate Firebase Performance Monitoring"
+                ],
+                "com.onlyoffice.documents": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.rarlab.rar": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.wixsite.ut_app.utalarm": [
+                    "Block ads, trackers, and analytics",
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads"
                 ]
             },
             "options": {
                 "com.google.android.inputmethod.latin": {
                     "Toggle feature flags": {
                         "enableFlags": "true"
+                    }
+                },
+                "com.wixsite.ut_app.utalarm": {
+                    "Block ads, trackers, and analytics": {
+                        "hosts": "\"/storage/emulated/0/Download/all.txt\""
                     }
                 }
             }
@@ -35,7 +61,7 @@
             "bundleUid": 0,
             "bundleName": "Morphe Patches",
             "bundleSource": "api",
-            "exportDate": "2026-07-22T11:30:57.459058",
+            "exportDate": "2026-08-01T17:25:04.257457",
             "selections": {
                 "com.google.android.youtube": [
                     "Add to queue",
@@ -102,6 +128,7 @@
                     "Sanitize sharing links",
                     "Save to watch later",
                     "Seekbar",
+                    "Settings menu filter",
                     "Shorts autoplay",
                     "SponsorBlock",
                     "Spoof app version",
@@ -110,7 +137,8 @@
                     "Swipe controls",
                     "Theme",
                     "Video quality",
-                    "Voice over translation"
+                    "Voice over translation",
+                    "Wide search bar"
                 ]
             },
             "options": null
