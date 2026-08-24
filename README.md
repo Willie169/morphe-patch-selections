@@ -28,4 +28,8 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 
 ### Notes
 
-Gboard's internet connection permission is not removed because keyboards of many languages need to download additional resources in the initial setup.
+- Gboard's internet connection permission is not removed because keyboards of many languages need to download additional resources in the initial setup.
+- RAR original APK can be downloaded from its [official site](https://www.win-rar.com/download.html).
+- ONLYOFFICE Documents original APK can be downloaded from its [official site](https://download.onlyoffice.com/install/mobile/android/onlyoffice-documents.apk).
+- Original APKs may be downloaded from [APKPure](https://apkpure.com), [APKMirror](https://www.apkmirror.com), etc.
+

@@ -1,11 +1,11 @@
 {
-    "exportDate": "2026-08-01T17:25:04.257457",
+    "exportDate": "2026-08-24T22:30:31.121042",
     "bundles": [
         {
             "bundleUid": -574526183,
             "bundleName": "Adobo",
             "bundleSource": "https://raw.githubusercontent.com/jkennethcarino/adobo/main/patches-bundle.json",
-            "exportDate": "2026-08-01T17:25:04.257457",
+            "exportDate": "2026-08-24T22:30:31.121042",
             "selections": {
                 "com.google.android.inputmethod.latin": [
                     "Always-incognito mode",
@@ -14,6 +14,7 @@
                     "Deactivate Firebase Performance Monitoring",
                     "Enable OCR feature",
                     "Enable Undo feature",
+                    "Enable access points menu redesign",
                     "Enable clipboard in incognito",
                     "Enable key shape selection",
                     "Enable voice typing in incognito"
@@ -61,7 +62,7 @@
             "bundleUid": 0,
             "bundleName": "Morphe Patches",
             "bundleSource": "api",
-            "exportDate": "2026-08-01T17:25:04.257457",
+            "exportDate": "2026-08-24T22:30:31.121042",
             "selections": {
                 "com.google.android.youtube": [
                     "Add to queue",
@@ -72,9 +73,9 @@
                     "Captions",
                     "Change form factor",
                     "Change header",
-                    "Change package name",
                     "Change start page",
                     "Check watch history domain name resolution",
+                    "Clone app",
                     "Copy video link",
                     "Custom branding",
                     "Custom player overlay opacity",
@@ -120,6 +121,7 @@
                     "Open videos fullscreen",
                     "Override YouTube Music buttons",
                     "Play all",
+                    "Playback in feeds",
                     "Playback speed",
                     "Reload video",
                     "Remove background playback restrictions",
@@ -141,7 +143,14 @@
                     "Wide search bar"
                 ]
             },
-            "options": null
+            "options": {
+                "com.google.android.youtube": {
+                    "Clone app": {
+                        "updatePermissions": "true",
+                        "updateProviders": "true"
+                    }
+                }
+            }
         }
     ]
 }
