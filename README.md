@@ -26,3 +26,6 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
       - Apps marked nodpi or not marked with any DPI-related info at all are meant for all devices.
       - Apps marked with dpi or dpi range are meant for specific DPIs only. You may use it if you know your device's DPI. Apps marked with 120-640dpi are typically ok for most devices.
 
+### Notes
+
+Gboard's internet connection permission is not removed because keyboards of many languages need to download additional resources in the initial setup.
