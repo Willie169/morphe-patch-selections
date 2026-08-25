@@ -1,4 +1,4 @@
+applovin.com
 crashlytics.com
 google.com
 googleapis.com
-revenuecat.com
