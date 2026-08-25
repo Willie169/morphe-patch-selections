@@ -31,10 +31,11 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
   - For CalcES (`advanced.scientific.calculator.calc991.plus`), download [calces.txt](https://github.com/Willie169/morphe-patch-selections/raw/refs/heads/main/calces.txt) and put it to `/storage/emulated/0/Download/`.
 8. Patch apps.
 9. Read the following notices:
-  - When importing data from original MacroDroid to patched MacroDroid or from patched MacroDroid to original MacroDroid, do not select Quick Settings Tiles; otherwise the importation will fail to proceed.
+  - Package name of MacroDroid is not changed because many functionalities of it rely on it. You have to export data and uninstall the original MacroDroid and then install the patched one and import data to use it. You have to exclude MacroDroid from being updated by other app managers such as Google Play and Obtainium.
   - Remove Internet Permission is not used for Gboard because keyboards of many languages need to download additional resources in the initial setup.
   - Remove Internet Permission and Disable Telemetry is not used for Earphone Alarm because doing so will cause crashes, and thus connections to Google may still occur.
-  - Remove Internet Permission is not used for MacroDroid because doing so will cause crashes, and thus connections to Google may still occur.
+  - Remove Internet Permission is not used for CalcES because doing so will cause crashes, and thus connections to Google may still occur.
+  - Remove Internet Permission and Block ads, trackers, and analytics is not used for MacroDroid because doing so will cause crashes or fails when patching, and thus connections to Google will still occur.
 
 For more patches, you may refer to [Morphe Community Patches](https://morphe-patches.software).
 
