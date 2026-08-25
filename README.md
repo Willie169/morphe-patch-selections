@@ -5,7 +5,10 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 ### Usage
 
 1. Install Morphe according to guides in [Morphe Patches](https://github.com/MorpheApp/morphe-patches).
-2. Add [adobo](https://github.com/jkennethcarino/adobo) source according to guides in it.
+2. Add the following sources with deep links or manually:
+  - [adobo](https://github.com/jkennethcarino/adobo): [drep link](https://morphe.software/add-source?github=jkennethcarino/adobo)
+  - [Morning-Entree-Patches](https://github.com/Entree3k/Morning-Entree-Patches): [deep link](https://morphe.software/add-source?github=Entree3k/Morning-Entree-Patches)
+  - [Nai64Patches](https://github.com/Nai64/Nai64Patches): [deep link](https://morphe.software/add-source?github=Nai64/Nai64Patches)
 3. Download [`morphe_all_selections.json`](https://raw.githubusercontent.com/Willie169/morphe-patch-selections/refs/heads/main/morphe_all_selections.json) from this repo.
 4. In Morphe, go to Settings > Advanced and enable Expert mode.
 5. In Morphe, go to System > Patch selections and Import the downloaded `morphe_all_selections.json`.
@@ -23,7 +26,8 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
       + Apps marked nodpi or not marked with any DPI-related info at all are meant for all devices.
       + Apps marked with dpi or dpi range are meant for specific DPIs only. You may use it if you know your device's DPI. Apps marked with 120-640dpi are typically ok for most devices.
   - Original APKs may be obtained by installing the app from Google Play or Aurora Store and letting Morphe extract from it.
-7. Patch apps.
+7. For Earphone Alarm , download [earphone_alarm_host.txt](earphone_alarm_host.txt) and put it to `/storage/emulated/0/Download/`.
+8. Patch apps.
 
 ### Notes
 
