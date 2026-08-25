@@ -26,7 +26,7 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
       + Apps marked nodpi or not marked with any DPI-related info at all are meant for all devices.
       + Apps marked with dpi or dpi range are meant for specific DPIs only. You may use it if you know your device's DPI. Apps marked with 120-640dpi are typically ok for most devices.
   - Original APKs may be obtained by installing the app from Google Play or Aurora Store and letting Morphe extract from it.
-7. For Earphone Alarm , download [earphone_alarm_host.txt](earphone_alarm_host.txt) and put it to `/storage/emulated/0/Download/`.
+7. For Earphone Alarm (`com.wixsite.ut_app.utalarm`), download [earphone_alarm_host.txt](https://github.com/Willie169/morphe-patch-selections/raw/refs/heads/main/earphone_alarm_host.txt) and put it to `/storage/emulated/0/Download/`.
 8. Patch apps.
 
 ### Notes
