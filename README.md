@@ -30,10 +30,11 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
   - For Earphone Alarm (`com.wixsite.ut_app.utalarm`), download [earphone_alarm_host.txt](https://github.com/Willie169/morphe-patch-selections/raw/refs/heads/main/earphone_alarm_host.txt) and put it to `/storage/emulated/0/Download/`.
   - For CalcES (`advanced.scientific.calculator.calc991.plus`), download [calces.txt](https://github.com/Willie169/morphe-patch-selections/raw/refs/heads/main/calces.txt) and put it to `/storage/emulated/0/Download/`.
 8. Patch apps.
+9. Read the following notices:
+  - When importing data from original MacroDroid to patched MacroDroid or from patched MacroDroid to original MacroDroid, do not select Quick Settings Tiles; otherwise the importation will fail to proceed.
+  - Remove Internet Permission is not used for Gboard because keyboards of many languages need to download additional resources in the initial setup.
+  - Remove Internet Permission and Disable Telemetry is not used for Earphone Alarm because doing so will cause crashes, and thus connections to Google may still occur.
+  - Remove Internet Permission is not used for MacroDroid because doing so will cause crashes, and thus connections to Google may still occur.
 
-### Notes
-
-- Remove Internet Permission is not used for Gboard because keyboards of many languages need to download additional resources in the initial setup.
--  Remove Internet Permission and Disable Telemetry is not used for Earphone Alarm because doing so will cause crashes, and thus connections to Google may still occur.
--  Remove Internet Permission is not used for MacroDroid because doing so will cause crashes, and thus connections to Google may still occur.
+For more patches, you may refer to [Morphe Community Patches](https://morphe-patches.software).
 
