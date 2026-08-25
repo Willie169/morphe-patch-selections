@@ -28,7 +28,6 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
   - Original APKs may be obtained by installing the app from Google Play or Aurora Store and letting Morphe extract from it.
 7. Download Block ads, trackers, and analytics host file for apps that need it.
   - For Earphone Alarm (`com.wixsite.ut_app.utalarm`), download [earphone_alarm_host.txt](https://github.com/Willie169/morphe-patch-selections/raw/refs/heads/main/earphone_alarm_host.txt) and put it to `/storage/emulated/0/Download/`.
-  - For CalcES (`advanced.scientific.calculator.calc991.plus`), download [calces.txt](https://github.com/Willie169/morphe-patch-selections/raw/refs/heads/main/calces.txt) and put it to `/storage/emulated/0/Download/`.
 8. Patch apps.
 9. Read the following notices:
   - Package name of MacroDroid is not changed because many functionalities of it rely on it. You have to export data and uninstall the original MacroDroid and then install the patched one and import data to use it. You have to exclude MacroDroid from being updated by other app managers such as Google Play and Obtainium.

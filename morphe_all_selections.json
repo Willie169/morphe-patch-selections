@@ -1,0 +1,352 @@
+{
+    "exportDate": "2026-08-25T22:46:39.312127",
+    "bundles": [
+        {
+            "bundleUid": -2022538238,
+            "bundleName": "Nai's Patches",
+            "bundleSource": "https://raw.githubusercontent.com/Nai64/Nai64Patches/main/patches-bundle.json",
+            "exportDate": "2026-08-25T22:46:39.312127",
+            "selections": {
+                "app.morphe.android.youtube": [
+                    "Disable Firebase Auto-Init"
+                ],
+                "com.arlosoft.macrodroid": [
+                    "Disable Firebase Auto-Init",
+                    "No Ads"
+                ],
+                "com.google.android.inputmethod.latin": [
+                    "Bypass Managed Profile"
+                ],
+                "com.google.android.youtube": [
+                    "Disable Firebase Auto-Init"
+                ],
+                "com.onlyoffice.documents": [
+                    "Disable Analytics Events",
+                    "Disable Firebase Auto-Init",
+                    "Disable Telemetry",
+                    "No Ads"
+                ],
+                "com.onlyoffice.documents.adobo": [
+                    "Disable Firebase Auto-Init"
+                ],
+                "com.wixsite.ut_app.utalarm.adobo": [
+                    "Disable Analytics Events",
+                    "Disable Firebase Auto-Init",
+                    "Hide Clipboard",
+                    "No Ads",
+                    "Remove Permissions"
+                ]
+            },
+            "options": {
+                "com.wixsite.ut_app.utalarm.adobo": {
+                    "Remove Permissions": {
+                        "removePermissions": "\"com.android.vending.BILLING, com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE\""
+                    }
+                }
+            }
+        },
+        {
+            "bundleUid": -801909421,
+            "bundleName": "Morning Entree Patches",
+            "bundleSource": "https://raw.githubusercontent.com/Entree3k/Morning-Entree-Patches/main/patches-bundle.json",
+            "exportDate": "2026-08-25T22:46:39.312127",
+            "selections": {
+                "com.arlosoft.macrodroid": [
+                    "Enable Premium"
+                ],
+                "com.google.android.inputmethod.latin": [
+                    "Block tracking and analytics"
+                ],
+                "com.google.android.inputmethod.latin.adobo": [
+                    "Block tracking and analytics"
+                ]
+            },
+            "options": null
+        },
+        {
+            "bundleUid": -574526183,
+            "bundleName": "Adobo",
+            "bundleSource": "https://raw.githubusercontent.com/jkennethcarino/adobo/main/patches-bundle.json",
+            "exportDate": "2026-08-25T22:46:39.312127",
+            "selections": {
+                "app.morphe.android.youtube": [
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring"
+                ],
+                "com.arlosoft.macrodroid": [
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads"
+                ],
+                "com.google.android.inputmethod.latin": [
+                    "Always-incognito mode",
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Enable OCR feature",
+                    "Enable Undo feature",
+                    "Enable clipboard in incognito",
+                    "Enable key shape selection",
+                    "Enable voice typing in incognito"
+                ],
+                "com.google.android.inputmethod.latin.adobo": [
+                    "Always-incognito mode",
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Enable OCR feature",
+                    "Enable Undo feature",
+                    "Enable clipboard in incognito",
+                    "Enable key shape selection",
+                    "Enable voice typing in incognito"
+                ],
+                "com.google.android.youtube": [
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring"
+                ],
+                "com.onlyoffice.documents": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.onlyoffice.documents.adobo": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.rarlab.rar": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.rarlab.rar.adobo": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.wixsite.ut_app.utalarm": [
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads",
+                    "Remove internet permission"
+                ],
+                "com.wixsite.ut_app.utalarm.adobo": [
+                    "Block ads, trackers, and analytics",
+                    "Change package name",
+                    "Deactivate Firebase Analytics",
+                    "Deactivate Firebase Performance Monitoring",
+                    "Disable mobile ads"
+                ]
+            },
+            "options": {
+                "com.google.android.inputmethod.latin": {
+                    "Toggle feature flags": {
+                        "enableFlags": "true"
+                    }
+                },
+                "com.google.android.inputmethod.latin.adobo": {
+                    "Toggle feature flags": {
+                        "enableFlags": "true"
+                    }
+                },
+                "com.wixsite.ut_app.utalarm": {
+                    "Block ads, trackers, and analytics": {
+                        "hosts": "\"\""
+                    }
+                },
+                "com.wixsite.ut_app.utalarm.adobo": {
+                    "Block ads, trackers, and analytics": {
+                        "hosts": "\"/storage/emulated/0/Download/earphone_alarm_host.txt\""
+                    }
+                }
+            }
+        },
+        {
+            "bundleUid": 0,
+            "bundleName": "Morphe Patches",
+            "bundleSource": "api",
+            "exportDate": "2026-08-25T22:46:39.312127",
+            "selections": {
+                "app.morphe.android.youtube": [
+                    "Add to queue",
+                    "Alternative thumbnails",
+                    "Ambient mode",
+                    "Bypass image region restrictions",
+                    "Bypass link redirects",
+                    "Captions",
+                    "Change form factor",
+                    "Change header",
+                    "Change start page",
+                    "Check watch history domain name resolution",
+                    "Clone app",
+                    "Copy video link",
+                    "Custom branding",
+                    "Custom player overlay opacity",
+                    "Disable DRC audio",
+                    "Disable QUIC protocol",
+                    "Disable Shorts resuming on startup",
+                    "Disable double tap actions",
+                    "Disable fullscreen gestures",
+                    "Disable haptic feedback",
+                    "Disable layout updates",
+                    "Disable player popup panels",
+                    "Disable rolling number animations",
+                    "Disable sign in to TV popup",
+                    "Disable video codecs",
+                    "Double tap to seek",
+                    "Downloads",
+                    "Enable debugging",
+                    "Exit fullscreen mode",
+                    "Force original audio",
+                    "GmsCore support",
+                    "Hide Shorts components",
+                    "Hide ads",
+                    "Hide autoplay preview",
+                    "Hide end screen cards",
+                    "Hide end screen suggested video",
+                    "Hide info cards",
+                    "Hide layout components",
+                    "Hide player flyout menu components",
+                    "Hide player overlay buttons",
+                    "Hide related video overlay",
+                    "Hide related videos",
+                    "Hide timestamp",
+                    "Hide video action buttons",
+                    "Loop video",
+                    "Media notification controls",
+                    "Miniplayer",
+                    "Navigation bar",
+                    "Network proxy",
+                    "Open Shorts in regular player",
+                    "Open channel of live avatar",
+                    "Open links externally",
+                    "Open system share sheet",
+                    "Open videos fullscreen",
+                    "Override YouTube Music buttons",
+                    "Play all",
+                    "Playback in feeds",
+                    "Playback speed",
+                    "Reload video",
+                    "Remove background playback restrictions",
+                    "Remove viewer discretion dialog",
+                    "Return YouTube Dislike",
+                    "Sanitize sharing links",
+                    "Save to watch later",
+                    "Seekbar",
+                    "Settings menu filter",
+                    "Shorts autoplay",
+                    "SponsorBlock",
+                    "Spoof app version",
+                    "Spoof device dimensions",
+                    "Spoof video streams",
+                    "Swipe controls",
+                    "Theme",
+                    "Video quality",
+                    "Voice over translation",
+                    "Wide search bar"
+                ],
+                "com.google.android.youtube": [
+                    "Add to queue",
+                    "Alternative thumbnails",
+                    "Ambient mode",
+                    "Bypass image region restrictions",
+                    "Bypass link redirects",
+                    "Captions",
+                    "Change form factor",
+                    "Change header",
+                    "Change start page",
+                    "Check watch history domain name resolution",
+                    "Clone app",
+                    "Copy video link",
+                    "Custom branding",
+                    "Custom player overlay opacity",
+                    "Disable DRC audio",
+                    "Disable QUIC protocol",
+                    "Disable Shorts resuming on startup",
+                    "Disable double tap actions",
+                    "Disable fullscreen gestures",
+                    "Disable haptic feedback",
+                    "Disable layout updates",
+                    "Disable player popup panels",
+                    "Disable rolling number animations",
+                    "Disable sign in to TV popup",
+                    "Disable video codecs",
+                    "Double tap to seek",
+                    "Downloads",
+                    "Enable debugging",
+                    "Exit fullscreen mode",
+                    "Force original audio",
+                    "GmsCore support",
+                    "Hide Shorts components",
+                    "Hide ads",
+                    "Hide autoplay preview",
+                    "Hide end screen cards",
+                    "Hide end screen suggested video",
+                    "Hide info cards",
+                    "Hide layout components",
+                    "Hide player flyout menu components",
+                    "Hide player overlay buttons",
+                    "Hide related video overlay",
+                    "Hide related videos",
+                    "Hide timestamp",
+                    "Hide video action buttons",
+                    "Loop video",
+                    "Media notification controls",
+                    "Miniplayer",
+                    "Navigation bar",
+                    "Network proxy",
+                    "Open Shorts in regular player",
+                    "Open channel of live avatar",
+                    "Open links externally",
+                    "Open system share sheet",
+                    "Open videos fullscreen",
+                    "Override YouTube Music buttons",
+                    "Play all",
+                    "Playback in feeds",
+                    "Playback speed",
+                    "Reload video",
+                    "Remove background playback restrictions",
+                    "Remove viewer discretion dialog",
+                    "Return YouTube Dislike",
+                    "Sanitize sharing links",
+                    "Save to watch later",
+                    "Seekbar",
+                    "Settings menu filter",
+                    "Shorts autoplay",
+                    "SponsorBlock",
+                    "Spoof app version",
+                    "Spoof device dimensions",
+                    "Spoof video streams",
+                    "Swipe controls",
+                    "Theme",
+                    "Video quality",
+                    "Voice over translation",
+                    "Wide search bar"
+                ]
+            },
+            "options": {
+                "app.morphe.android.youtube": {
+                    "Clone app": {
+                        "updatePermissions": "true",
+                        "updateProviders": "true"
+                    }
+                },
+                "com.google.android.youtube": {
+                    "Clone app": {
+                        "updatePermissions": "true",
+                        "updateProviders": "true"
+                    }
+                }
+            }
+        }
+    ]
+}
