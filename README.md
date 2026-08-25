@@ -33,7 +33,6 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 
 ### Notes
 
-- Gboard doesn't use Remove Internet Permission because keyboards of many languages need to download additional resources in the initial setup.
-- Earphone Alarm doesn't use Remove Internet Permission and Disable Telemetry removed because removing doing so will cause crash, and thus connections to Google may still occur.
-- MacroDroid doesn't use Remove Internet Permission because removing doing so will cause crash.
+- Remove Internet Permission is not used for Gboard because keyboards of many languages need to download additional resources in the initial setup.
+-  Remove Internet Permission and Disable Telemetry is not used for Earphone Alarm and MacroDroid because doing so will cause crash and/or core functionalities to not work, and thus connections to Google may still occur.
 
