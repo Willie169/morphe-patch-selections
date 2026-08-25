@@ -6,7 +6,7 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 
 1. Install Morphe according to guides in [Morphe Patches](https://github.com/MorpheApp/morphe-patches).
 2. Add the following sources with deep links or manually:
-  - [adobo](https://github.com/jkennethcarino/adobo): [drep link](https://morphe.software/add-source?github=jkennethcarino/adobo)
+  - [adobo](https://github.com/jkennethcarino/adobo): [deep link](https://morphe.software/add-source?github=jkennethcarino/adobo)
   - [Morning-Entree-Patches](https://github.com/Entree3k/Morning-Entree-Patches): [deep link](https://morphe.software/add-source?github=Entree3k/Morning-Entree-Patches)
   - [Nai64Patches](https://github.com/Nai64/Nai64Patches): [deep link](https://morphe.software/add-source?github=Nai64/Nai64Patches)
 3. Download [`morphe_all_selections.json`](https://raw.githubusercontent.com/Willie169/morphe-patch-selections/refs/heads/main/morphe_all_selections.json) from this repo.
@@ -34,5 +34,6 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 ### Notes
 
 - Remove Internet Permission is not used for Gboard because keyboards of many languages need to download additional resources in the initial setup.
--  Remove Internet Permission and Disable Telemetry is not used for Earphone Alarm and MacroDroid because doing so will cause crash and/or core functionalities to not work, and thus connections to Google may still occur.
+-  Remove Internet Permission and Disable Telemetry is not used for Earphone Alarm because doing so will cause crashes, and thus connections to Google may still occur.
+-  Remove Internet Permission is not used for MacroDroid because doing so will cause crashes, and thus connections to Google may still occur.
 
