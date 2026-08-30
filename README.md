@@ -9,7 +9,10 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
   - [adobo](https://github.com/jkennethcarino/adobo): [deep link](https://morphe.software/add-source?github=jkennethcarino/adobo)
   - [Morning-Entree-Patches](https://github.com/Entree3k/Morning-Entree-Patches): [deep link](https://morphe.software/add-source?github=Entree3k/Morning-Entree-Patches)
   - [Nai64Patches](https://github.com/Nai64/Nai64Patches): [deep link](https://morphe.software/add-source?github=Nai64/Nai64Patches)
-3. Download [`morphe_all_selections.json`](https://raw.githubusercontent.com/Willie169/morphe-patch-selections/refs/heads/main/morphe_all_selections.json) from this repo.
+3. Download [`morphe_all_selections.json`](https://raw.githubusercontent.com/Willie169/morphe-patch-selections/refs/heads/main/morphe_all_selections.json) from this repo. Only patch selections for the following apps in it are actively maintained
+  - MacroDroid (`com.arlosoft.macrodroid`)
+  - Gboard (`com.google.android.inputmethod`)
+  - YouTube (`com.google.android.youtube`)
 4. In Morphe, go to Settings > Advanced and enable Expert mode.
 5. In Morphe, go to System > Patch selections and Import the downloaded `morphe_all_selections.json`.
 6. Obtain original APKs.
