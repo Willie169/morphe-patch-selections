@@ -13,7 +13,6 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 4. In Morphe, go to Settings > Advanced and enable Expert mode.
 5. In Morphe, go to System > Patch selections and Import the downloaded `morphe_all_selections.json`.
 6. Obtain original APKs.
-  * ONLYOFFICE Documents original APK can be downloaded from its [official site](https://download.onlyoffice.com/install/mobile/android/onlyoffice-documents.apk).
   * Original APKs may be downloaded from [APKPure](https://apkpure.com), [APKMirror](https://www.apkmirror.com), etc. Make sure to:
     * match your device architechture: universal or your device architechture, typically
       + arm64 or arm64-v8a for mordern phones,
