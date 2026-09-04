@@ -16,7 +16,7 @@ This repo contains my patch selections for [Morphe Patches](https://github.com/M
 4. In Morphe, go to Settings > Advanced and enable Expert mode.
 5. In Morphe, go to System > Patch selections and Import the downloaded `morphe_all_selections.json`.
 6. Obtain original APKs.
-  * Original APKs may be downloaded from [APKPure](https://apkpure.com), [Aptoide](https://en.aptoide.com), [APKMirror](https://www.apkmirror.com), etc. Make sure to:
+  * Original APKs may be downloaded from [APKPure](https://apkpure.com), [APKMirror](https://www.apkmirror.com), etc. Make sure to:
     * match your device architechture: universal or your device architechture, typically
       + arm64 or arm64-v8a for mordern phones,
       + arm, armeabi, or armeabi-v7a for older phones,
